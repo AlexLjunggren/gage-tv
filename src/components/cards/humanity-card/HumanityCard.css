@@ -1,0 +1,38 @@
+.humanity-card {
+    width: 106px;
+    height:167px;
+    margin-bottom: 13px;
+    margin-left: 13px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+    font-size: .8em;
+    word-wrap: break-word;
+}
+
+.question {
+    border: 3px solid #353535;
+    background-color: white;
+    color: #353535;
+}
+
+.answer {
+    background-color: #353535;
+    color: white;
+}
+
+.back {
+    border: 3px solid black;
+    background-color: #eee;
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+        linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-size: 10px 10px;
+}
+
+.selected {
+    transform: scale(1.1);
+    border: 3px solid #353535;
+    background-color: white;
+    color: #353535;
+}

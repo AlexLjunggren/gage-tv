@@ -1,0 +1,10 @@
+.winningSet .winner{
+    box-sizing: border-box;
+    padding: 10px 13px;
+}
+
+.winningSet .humanity-card:nth-child(3){
+    position: relative;
+    top: -110px;
+    right: -40px;
+}

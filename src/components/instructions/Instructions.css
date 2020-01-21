@@ -1,0 +1,14 @@
+.instructions {
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #353535;
+    border-radius: 10px;
+}
+
+.instructions .hyperlink {
+    color: rgb(36, 36, 255);
+}
+
+.instructions .gameCode {
+    font-weight: bold;
+}

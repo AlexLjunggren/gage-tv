@@ -1,0 +1,20 @@
+.humanity-player .title {
+    padding: 10px;
+    background-color: #353535;
+    color: white;
+}
+
+.humanity-player .messages {
+    padding: 10px;
+}
+
+.humanity-player .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.humanity-player .container .card{
+    flex: 1 0 auto;
+}

@@ -1,0 +1,83 @@
+.humanity-game {
+    height: 100%;
+    display: flex;
+}
+
+.humanity-game .left-panel {
+    flex: 1;
+    text-align: left;;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #353535;
+    color: white;
+}
+
+.humanity-game .right-panel {
+    flex: 5;
+    text-align: left;;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.left-panel .title {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.left-panel .scoreboard {
+    padding-top: 20px;
+}
+
+.left-panel .gameCode {
+    position: absolute;
+    padding-bottom: 20px;
+    bottom: 0;
+}
+
+.right-panel .messages {
+    padding-left: 10px;
+    font-size: x-large;
+}
+
+.right-panel .options .option {
+    padding: 10px;
+    margin: 10px;
+    background-color: #353535;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.right-panel .container {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.right-panel .container .card{
+    flex: 1 0 auto;
+}
+
+.right-panel .history {
+    position: absolute;
+    padding-bottom: 10px;
+    bottom: 0;
+}
+
+.right-panel .history {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.right-panel .history .set {
+    flex: 1 0 auto;
+}

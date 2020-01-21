@@ -1,0 +1,15 @@
+.player {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.player .name {
+    flex: 3;
+}
+
+.player .score {
+    flex: 1;
+    text-align: right;
+}
